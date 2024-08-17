@@ -5,9 +5,9 @@ import Loadable from 'ui-component/Loadable';
 import WebLayout from 'layout/WebLayout';
 
 // login option 3 routing
-const MgiWebsiteFree = Loadable(lazy(() => import('views/utilities/Websites/MgiWebsiteFree')));
-const MgiWebsitePaid = Loadable(lazy(() => import('views/utilities/Websites/MgiWebsitePaid')));
-const MgiTutorialsWebsite = Loadable(lazy(() => import('views/utilities/Websites/MgiTutorialsWebsite')));
+const MgiWebsiteFree = Loadable(lazy(() => import('views/utilities/Websites/MgiWebsiteFree/MgiWebsiteFree')));
+const MgiWebsitePaid = Loadable(lazy(() => import('views/utilities/Websites/MgiWebsitePaid/MgiWebsitePaid')));
+const MgiTutorialsWebsite = Loadable(lazy(() => import('views/utilities/Websites/MgiTutorialsWebsite/MgiTutorialsWebsite')));
 
 // ==============================|| AUTHENTICATION ROUTING ||============================== //
 

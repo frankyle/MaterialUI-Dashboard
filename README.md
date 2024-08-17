@@ -29,3 +29,11 @@
 ![alt text](image-9.png)
 3. Tutorial Website
 ![alt text](image-10.png)
+
+# Added Components For the Websites
+1. Free Website
+![alt text](image-11.png)
+2. Paid Website
+![alt text](image-12.png)
+3. Tutorial Website
+![alt text](image-13.png)
