@@ -22,3 +22,10 @@
 # Form Input for Entered Trades
 ![alt text](image-6.png)
 
+# Added Website views 
+1. Free Website
+![alt text](image-8.png)
+2. Paid Website
+![alt text](image-9.png)
+3. Tutorial Website
+![alt text](image-10.png)
