@@ -7,10 +7,11 @@
 # SignUp Page
 ![alt text](image-2.png)
 
-# Incident Form
-![alt text](image-3.png)
-![alt text](image-4.png)
+# Currencies Pages
+![alt text](image-7.png)
 
-# Different Forms
-![alt text](image-5.png)
-![alt text](image-6.png)
+# Trading Idea Form
+![alt text](image-3.png)
+
+# MGI trading idea Form
+![alt text](image-4.png)

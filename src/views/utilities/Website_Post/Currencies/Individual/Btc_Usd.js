@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import AddIcon from '@mui/icons-material/Add';
 
 
-const Aud_Usd = () => {
+const Btc_Usd = () => {
   return (
     <div>
         <h1>Trade Data Table</h1>
@@ -26,4 +26,4 @@ const Aud_Usd = () => {
   )
 }
 
-export default Aud_Usd
+export default Btc_Usd

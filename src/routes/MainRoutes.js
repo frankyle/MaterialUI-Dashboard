@@ -6,6 +6,31 @@ import Loadable from 'ui-component/Loadable';
 import Cyclists from 'views/utilities/Tpc_Operation/Guards/Cyclists';
 import QRFMovement from 'views/utilities/Tpc_Operation/QRF/QRFMovement';
 import Xau_Usd from 'views/utilities/Website_Post/Currencies/Individual/Xau_Usd';
+import Eur_Usd from 'views/utilities/Website_Post/Currencies/Individual/Eur_Usd';
+import Eur_Nzd from 'views/utilities/Website_Post/Currencies/Individual/Eur_Nzd';
+import Eur_Chf from 'views/utilities/Website_Post/Currencies/Individual/Eur_Chf';
+import Eur_Cad from 'views/utilities/Website_Post/Currencies/Individual/Eur_Cad';
+import Chf_Jpy from 'views/utilities/Website_Post/Currencies/Individual/Chf_Jpy';
+import Cad_Jpy from 'views/utilities/Website_Post/Currencies/Individual/Cad_Jpy';
+import Btc_Usd from 'views/utilities/Website_Post/Currencies/Individual/Btc_Usd';
+import Aud_Usd from 'views/utilities/Website_Post/Currencies/Individual/Aud_Usd';
+import Aud_Nzd from 'views/utilities/Website_Post/Currencies/Individual/Aud_Nzd';
+import Usd_Oil from 'views/utilities/Website_Post/Currencies/Individual/Usd_Oil';
+import Usd_Jpy from 'views/utilities/Website_Post/Currencies/Individual/Usd_Jpy';
+import Usd_Chf from 'views/utilities/Website_Post/Currencies/Individual/Usd_Chf';
+import Usd_Cad from 'views/utilities/Website_Post/Currencies/Individual/Usd_Cad';
+import Nzd_Usd from 'views/utilities/Website_Post/Currencies/Individual/Nzd_Usd';
+import Nzd_Jpy from 'views/utilities/Website_Post/Currencies/Individual/Nzd_Jpy';
+import Nzd_Cad from 'views/utilities/Website_Post/Currencies/Individual/Nzd_Cad';
+import Gbp_Jpy from 'views/utilities/Website_Post/Currencies/Individual/Gbp_Jpy';
+import Gbp_Aud from 'views/utilities/Website_Post/Currencies/Individual/Gbp_Aud';
+import Gbp_Cad from 'views/utilities/Website_Post/Currencies/Individual/Gbp_Cad';
+import Gbp_Usd from 'views/utilities/Website_Post/Currencies/Individual/Gbp_USd';
+import Gbp_USd from 'views/utilities/Website_Post/Currencies/Individual/Gbp_USd';
+import Eur_Jpy from 'views/utilities/Website_Post/Currencies/Individual/Eur_Jpy';
+import Eur_Aud from 'views/utilities/Website_Post/Currencies/Individual/Eur_Aud';
+import Gbp_Chf from 'views/utilities/Website_Post/Currencies/Individual/Gbp_Chf';
+import Gbp_Nzd from 'views/utilities/Website_Post/Currencies/Individual/Gbp_Nzd';
 
 // dashboard routing
 const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')));
@@ -110,9 +135,114 @@ const MainRoutes = {
       element: <TradingTracker />
     },
     {
+      path: 'audnzd',
+      element: <Aud_Nzd />
+    },
+    {
+      path: 'audusd',
+      element: <Aud_Usd />
+    },
+   
+    {
+      path: 'btcusd',
+      element: <Btc_Usd />
+    },
+    {
+      path: 'cadjpy',
+      element: <Cad_Jpy />
+    },
+    {
+      path: 'chfjpy',
+      element: <Chf_Jpy />
+    },
+    {
+      path: 'euraud', 
+      element: <Eur_Aud />
+    },
+    {
+      path: 'eurcad',
+      element: <Eur_Cad />
+    },
+    {
+      path: 'eurchf',
+      element: <Eur_Chf />
+    },
+    
+    {
+      path: 'eurnzd',
+      element: <Eur_Nzd />
+    },
+   
+    {
+      path: 'eurusd', 
+      element: <Eur_Usd />
+    },
+   
+    {
+      path: 'eurjpy', 
+      element: <Eur_Jpy />
+    },
+    
+
+    {
+      path: 'gbpaud', 
+      element: <Gbp_Aud />
+     },
+     {
+      path: 'gbpcad',
+      element: <Gbp_Cad />
+    },
+    {
+      path: 'gbpchf',
+      element: <Gbp_Chf />
+    },
+    {
+      path: 'gbpnzd',
+      element: <Gbp_Nzd />
+    },
+    {
+      path: 'gbpjpy', 
+      element: <Gbp_Jpy />
+    },
+     
+    {
+      path: 'gbpusd', 
+      element: <Gbp_USd />
+      },
+
+      {
+        path: 'nzdcad',
+        element: <Nzd_Cad />
+
+      },{
+        path: 'nzdjpy',
+        element: <Nzd_Jpy />
+      },{
+        path: 'nzdusd',
+        element: <Nzd_Usd />
+      },
+
+      {
+        path: 'usdcad',
+        element: <Usd_Cad />
+      },
+      {
+        path: 'usdchf',
+        element: <Usd_Chf />
+      },
+      {
+        path: 'usdjpy',
+        element: <Usd_Jpy />
+      },
+      {
+        path: 'usdoil',
+        element: <Usd_Oil />
+      },
+    {
       path: 'xauusd',
       element: <Xau_Usd />
     },
+    
      // Add new tpc here
     {
       path: 'newincident',
