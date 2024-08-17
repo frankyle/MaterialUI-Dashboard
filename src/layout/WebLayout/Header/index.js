@@ -9,6 +9,7 @@ import { Box } from '@mui/material';
 import LogoSection from '../LogoSection';
 import ProfileSection from './ProfileSection';
 import NotificationSection from './NotificationSection';
+import NavigationComponent from './NavigationComponent';
 
 // assets
 // import { IconMenu2 } from '@tabler/icons-react';
@@ -33,6 +34,7 @@ const Header = ({ handleLeftDrawerToggle }) => {
         <Box component="span" sx={{ display: { xs: 'none', md: 'block' }, flexGrow: 1 }}>
           <LogoSection />
         </Box>
+        
         {/* <ButtonBase sx={{ borderRadius: '12px', overflow: 'hidden' }}>
           <Avatar
             variant="rounded"
@@ -54,7 +56,9 @@ const Header = ({ handleLeftDrawerToggle }) => {
           </Avatar>
         </ButtonBase> */}
       </Box>
-
+      <Box component="span" sx={{ display: { xs: 'none', md: 'block' }, flexGrow: 1 }}>
+          <NavigationComponent />
+        </Box>
       {/* header search */}
       <Box sx={{ flexGrow: 1 }} />
       <Box sx={{ flexGrow: 1 }} />
