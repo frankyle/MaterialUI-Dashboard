@@ -5,9 +5,9 @@ import { useTheme } from '@mui/material/styles';
 import { Box, Chip, Drawer, Stack, useMediaQuery } from '@mui/material';
 
 // third-party
-// import PerfectScrollbar from 'react-perfect-scrollbar';
-import {  MobileView } from 'react-device-detect';
-// import { BrowserView, MobileView } from 'react-device-detect';
+import PerfectScrollbar from 'react-perfect-scrollbar';
+// import {  MobileView } from 'react-device-detect';
+import { BrowserView, MobileView } from 'react-device-detect';
 
 // project imports
 import MenuList from './MenuList';
@@ -28,7 +28,7 @@ const Sidebar = ({ drawerOpen, drawerToggle, window }) => {
           <LogoSection />
         </Box>
       </Box>
-      {/* <BrowserView>
+      <BrowserView>
         <PerfectScrollbar
           component="div"
           style={{
@@ -43,7 +43,7 @@ const Sidebar = ({ drawerOpen, drawerToggle, window }) => {
             <Chip label={process.env.REACT_APP_VERSION} disabled chipcolor="secondary" size="small" sx={{ cursor: 'pointer' }} />
           </Stack>
         </PerfectScrollbar>
-      </BrowserView> */}
+      </BrowserView>
       <MobileView>
         <Box sx={{ px: 2 }}>
           <MenuList />

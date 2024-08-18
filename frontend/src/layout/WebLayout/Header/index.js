@@ -2,8 +2,8 @@ import PropTypes from 'prop-types';
 
 // material-ui
 import { useTheme } from '@mui/material/styles';
-import { Box } from '@mui/material';
-// import { Avatar, Box, ButtonBase } from '@mui/material';
+// import { Box } from '@mui/material';
+import { Avatar, Box, ButtonBase } from '@mui/material';
 
 // project imports
 import LogoSection from '../LogoSection';
@@ -12,7 +12,7 @@ import NotificationSection from './NotificationSection';
 import NavigationComponent from './NavigationComponent';
 
 // assets
-// import { IconMenu2 } from '@tabler/icons-react';
+import { IconMenu2 } from '@tabler/icons-react';
 
 // ==============================|| MAIN NAVBAR / HEADER ||============================== //
 
@@ -35,7 +35,7 @@ const Header = ({ handleLeftDrawerToggle }) => {
           <LogoSection />
         </Box>
         
-        {/* <ButtonBase sx={{ borderRadius: '12px', overflow: 'hidden' }}>
+        <ButtonBase sx={{ borderRadius: '12px', overflow: 'hidden' }}>
           <Avatar
             variant="rounded"
             sx={{
@@ -54,7 +54,7 @@ const Header = ({ handleLeftDrawerToggle }) => {
           >
             <IconMenu2 stroke={1.5} size="1.3rem" />
           </Avatar>
-        </ButtonBase> */}
+        </ButtonBase>
       </Box>
       <Box component="span" sx={{ display: { xs: 'none', md: 'block' }, flexGrow: 1 }}>
           <NavigationComponent />
